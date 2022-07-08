@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Front End Site</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container">
+        <a class="logo" href="#">Remember<span>That</span></a>
+        <img
+          id="mobile-cta"
+          class="mobile-menu"
+          src="images/menu.svg"
+          alt="open navigation"
+        />
+        <nav>
+          <img
+            id="mobile-exit"
+            class="mobile-menu-exit"
+            src="/images/exit.svg"
+            alt="close navigation"
+          />
+          <ul class="primary-nav">
+            <li class="current"><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+          </ul>
+          <ul class="secondary-nav">
+            <li><a href="#contact">Contact</a></li>
+            <li class="go-premium-cta"><a href="#">Go Premium</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="left-col">
+          <p class="subhead">It's Nitty &amp; Gritty</p>
+          <h1>A Task App That doesn't Stink</h1>
+          <div class="hero-cta">
+            <a href="#" class="primary-cta">Try for free</a>
+            <a href="#" class="watch-video-cta">
+              <img src="images/watch.svg" alt="Watch a video" />Watch a video
+            </a>
+          </div>
+        </div>
+        <img src="images/illustration.svg" class="hero-img" alt="ilustration" />
+      </div>
+    </section>
+
+    <section class="features-section" id="features">
+      <div class="container">
+        <ul class="features-list">
+          <li>Unlimitet tasks</li>
+          <li>SMS Task reminders</li>
+          <li>Confettie explosions upon task complete</li>
+          <li>Social median announcements</li>
+          <li>Real Time Collaboration</li>
+          <li>Other awesome features</li>
+        </ul>
+        <img src="images/holding-phone.jpg" alt="phone" />
+      </div>
+    </section>
+
+    <section class="testimonials-section" id="pricing">
+      <div class="container">
+        <ul>
+          <li>
+            <img src="images/person.jpg" alt="person" />
+            <blockquote>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate odio voluptatum iure perferendis incidunt laboriosam
+              consequuntur tempora animi porro ea?
+            </blockquote>
+            <cite>- Jane Doe</cite>
+          </li>
+          <li>
+            <img src="images/person.jpg" alt="person" />
+            <blockquote>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quas
+              eaque corrupti quos maiores illo impedit. Accusantium voluptates
+              quae veritatis.
+            </blockquote>
+            <cite>- Jane Doe</cite>
+          </li>
+          <li>
+            <img src="images/person.jpg" alt="person" />
+            <blockquote>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus beatae expedita tempore. Voluptate, suscipit dolore
+              corrupti autem eum inventore vitae!
+            </blockquote>
+            <cite>- Jane Doe</cite>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-section">
+        <div class="container">
+          <div class="contact-left">
+            <h2>Contact</h2>
+            <form action="">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="name" />
+
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+              ></textarea>
+
+              <input
+                type="submit"
+                class="send-message-cta"
+                value="send message"
+              />
+            </form>
+          </div>
+          <div class="contact-right">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31432.58891935384!2d-118.4355075337149!3d34.09657711838614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bc35fbd217ef%3A0xcf1ef9352700d95c!2sBeverly%20Hills%2C%20CA%2090210%2C%20USA!5e0!3m2!1sen!2srs!4v1657117177309!5m2!1sen!2srs"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
